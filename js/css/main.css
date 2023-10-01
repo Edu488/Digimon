@@ -1,0 +1,6 @@
+#seleciona-personaje{
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+    border: 2px solid lime;
+}
