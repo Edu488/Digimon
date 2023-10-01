@@ -1,13 +1,5 @@
-    
-    //funciona para iniciar el juego
-
-    function iniciarJuego(){
-    let botonMascotaJugador = document.getElementById('Boton-mascota')
-    botonMascotaJugador.addEventListener('click',selecionarMastocaJugador)  
-    
-    }
-    //llamar la respuesta de input
-    function selecionarMastocaJugador(){
+ //llamar la respuesta de input
+ function selecionarMastocaJugador(){
     let inputagumon = document.getElementById('agumon')
     let inputgabumon = document.getElementById('gabumon')
     let inputfloemon = document.getElementById('floemon')
@@ -33,4 +25,4 @@
             alert('No elejiste ningun Digimon')
         }
 }
-        window.addEventListener('load', iniciarJuego)
+export default selecionarMastocaJugador
