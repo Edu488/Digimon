@@ -14,21 +14,21 @@
     let inputleomon = document.getElementById('leomon')
     let inputkristalmon = document.getElementById('kristalmon')
     let inputmememon = document.getElementById('mememon')
-    let spanMascotajugador = document.getElementById('mascota-jugador')        
+    let spanMascotaJugador = document.getElementById('mascota-jugador')        
       
     //Seleccion del compañero    
         if (inputagumon.checked){
-            spanMascotajugador.innerHTML= 'Agumon'
+            spanMascotaJugador.innerHTML ='Agumon'
         }else if (inputgabumon.checked){
-            alert('Selecionast a Gabumon')
+            spanMascotaJugador.innerHTML ='Gabumon'
         }else if(inputfloemon.checked){
-            alert('Selecionast a Floemon')
+            spanMascotaJugador.innerHTML ='Floemon'
         }else if(inputleomon.checked){
-            alert('Selecionast a Leomon')
+            spanMascotaJugador.innerHTML ='Leomon'
         }else if(inputkristalmon.checked){
-            alert('Selecionast a Kristalmon')     
+            spanMascotaJugador.innerHTML ='Kristalmon'    
         }else if(inputmememon.checked){
-            alert('Selecionast a Mememon')
+            spanMascotaJugador.innerHTML ='Mememon'
         }else {
             alert('No elejiste ningun Digimon')
         }
