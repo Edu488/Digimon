@@ -6,7 +6,7 @@
     let inputleomon = document.getElementById('leomon')
     let inputkristalmon = document.getElementById('kristalmon')
     let inputmememon = document.getElementById('mememon')
-        
+        let spandigimonjugador = getElementById('')
       
     //Seleccion del compañero    
         if (inputagumon.checked){
