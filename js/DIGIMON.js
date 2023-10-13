@@ -14,7 +14,8 @@
     let inputleomon = document.getElementById('leomon')
     let inputkristalmon = document.getElementById('kristalmon')
     let inputmememon = document.getElementById('mememon')
-    let spanMascotaJugador = document.getElementById('mascota-jugador')        
+    let spanMascotaJugador = document.getElementById('mascota-jugador')  
+    let spanMascotaenemiga = document.getElementById('mascota-enemigo')      
       
     //Seleccion del compañero    
         if (inputagumon.checked){
@@ -32,5 +33,32 @@
         }else {
             alert('No elejiste ningun Digimon')
         }
+        selecionarMastoenemiga()
+        
+    }  
+
+            function selecionarMastoenemiga(){
+            let ataquealeatorio = aleatorio(1,6)
+
+            if(ataquealeatorio == 1 ){
+                spanMascotaenemiga.innerHTML = 'Agumon'
+
+            }else if (ataquealeatorio == 2){
+                alert()
+
+            }else if (ataquealeatorio == 3){
+
+            }else if (ataquealeatorio == 4){ 
+
+            } else if (ataquealeatorio == 5){
+
+            }else if(ataquealeatorio == 6){
+
+            }
+
 }
+        
+        function aleatorio(min, max) {
+            return Math.floor(Math.random() * (max - min + 1) + min)
+          }
         window.addEventListener('load', iniciarJuego)
