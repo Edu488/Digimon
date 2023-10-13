@@ -14,11 +14,11 @@
     let inputleomon = document.getElementById('leomon')
     let inputkristalmon = document.getElementById('kristalmon')
     let inputmememon = document.getElementById('mememon')
-        
+    let spanMascotajugador = document.getElementById('mascota-jugador')        
       
     //Seleccion del compañero    
         if (inputagumon.checked){
-            alert('Selecionaste a Agumon')
+            spanMascotajugador.innerHTML= 'Agumon'
         }else if (inputgabumon.checked){
             alert('Selecionast a Gabumon')
         }else if(inputfloemon.checked){
